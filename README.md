@@ -4,7 +4,7 @@ This repository contains the question-answering StreamingQA datasets, a list of
 deduplicated WMT document IDs, and a script to process and filter the WMT
 documents to be used in conjunction with the paper: [StreamingQA: A Benchmark
 for Adaptation to New Knowledge over Time in Question Answering Models (Liška,
-Kočiský, Gribovskaya, Terzi et al., 2021)](https://arxiv.org/abs/?.?).
+Kočiský, Gribovskaya, Terzi et al., 2021)](https://arxiv.org/abs/2205.11388).
 
 If you use this dataset in your research please cite
 
@@ -28,7 +28,7 @@ If you use this dataset in your research please cite
     Sophia Austin and
     Phil Blunsom and
     Angeliki Lazaridou},
-  journal={arXiv preprint arXiv:?.?},
+  journal={arXiv preprint arXiv:2205.11388},
   year={2022}
 }
 ```
@@ -118,7 +118,7 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
       Data accompanying
       [StreamingQA: A Benchmark
 for Adaptation to New Knowledge over Time in Question Answering Models (Liška,
-Kočiský, Gribovskaya, Terzi et al., 2021)](https://arxiv.org/abs/?.?).
+Kočiský, Gribovskaya, Terzi et al., 2021)](https://arxiv.org/abs/2205.11388).
       </code></td>
   </tr>
   <tr>
@@ -144,7 +144,7 @@ Kočiský, Gribovskaya, Terzi et al., 2021)](https://arxiv.org/abs/?.?).
   </tr>
   <tr>
     <td>citation</td>
-    <td><code itemprop="citation">https://identifiers.org/arxiv:?.?</code></td>
+    <td><code itemprop="citation">https://identifiers.org/arxiv:2205.11388</code></td>
   </tr>
 </table>
 </div>
