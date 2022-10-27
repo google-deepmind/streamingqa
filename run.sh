@@ -24,6 +24,5 @@ pushd "$SCRIPT_DIR" > /dev/null
 
 python3 -m venv streamingqa_env
 source streamingqa_env/bin/activate
-pip3 install --upgrade pip
-pip3 install -r requirements.txt
+pip3 install --require-hashes -r requirements.txt
 python3 -m extraction_test
