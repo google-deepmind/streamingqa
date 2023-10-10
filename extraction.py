@@ -131,7 +131,8 @@ def get_wmt_passages_from_docs(
 
       if prepend_date:
         prefix = datetime.datetime.fromtimestamp(
-            doc.publication_ts).strftime(_PASSAGE_DATE_PREFIX_FORMAT).encode()
+            doc.publication_ts, tz=pytz.UTC).strftime(
+              _PASSAGE_DATE_PREFIX_FORMAT).encode()
         passage = _PASSAGE_SENTENCE_SEPARATOR.join([prefix, passage])
 
       passage_id = _PASSAGE_ID.format(
